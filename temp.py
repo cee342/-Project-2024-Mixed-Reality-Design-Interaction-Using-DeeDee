@@ -19,8 +19,9 @@ for _ in range(5):
 
 # Check if the frame was read successfully
 if ret:
+    resized_frame = cv2.resize(frame, (480, 480))
     # Save the frame as an image
-    cv2.imwrite(output_image_path, frame)
+    cv2.imwrite(output_image_path, resized_frame)
     print(f"First frame extracted and saved as {output_image_path}")
 else:
     print("Error: Could not read the frame.")
