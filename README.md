@@ -9,7 +9,7 @@
 You can find the Unity project files in the <a href="https://drive.google.com/file/d/1cK2x3coPqh1OrWWFZr0AiOeiQi3lL-Jy/view?usp=sharing">google link</a>. To use it, download the zip file and extract it. Use your unity hub to open this project.
 
 ## Demo Video
-<video width="600" controls>
-  <source src="demo.mov" type="video/quicktime">
+<video width="640" height="360" controls>
+  <source src="demo.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
